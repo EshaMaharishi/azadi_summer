@@ -1,0 +1,119 @@
+*
+{margin:0px; padding: 0px;}
+
+body{
+background: #e2e2e2; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #e2e2e2 0%, #d1d1d1 42%, #fefefe 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#e2e2e2), color-stop(42%,#d1d1d1), color-stop(100%,#fefefe)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #e2e2e2 0%,#d1d1d1 42%,#fefefe 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #e2e2e2 0%,#d1d1d1 42%,#fefefe 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #e2e2e2 0%,#d1d1d1 42%,#fefefe 100%); /* IE10+ */
+background: linear-gradient(135deg,  #e2e2e2 0%,#d1d1d1 42%,#fefefe 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#container
+{
+	width: 1050px;
+	height: 100%;
+	margin: 0px auto;
+	padding-left: 20px;
+}
+
+#search{
+	width: 500px;
+	float: left;
+	position: relative;
+	top: 20%;
+}
+
+#results{
+	width: 500px;
+	height: 90%;
+	background-color: white;
+	margin-left: 40px;
+	margin-top: 20px;
+	font-size: 13px;
+	font-family: Verdana;
+	float: left;
+	opacity: 0.8;
+}
+
+div.definition{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-style:italic;
+	font-size: 23px;
+}
+
+h1{
+
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:400;
+	color: rgb(22,68,128);
+	font-size: 75px;
+	left: 280px;
+	top: 90px;
+}
+
+.result, .chosenResult, .helptext{
+	opacity: .6;
+	background-color: lightgray;
+	padding:20px;
+	margin:30px;
+	width: 400px;
+}
+
+.helptext
+{
+	background-color: white;
+	margin-bottom:0px;
+	padding-bottom: 0px;
+}
+
+.showall
+	{ cursor: hand; cursor: pointer; }
+
+.file
+{
+	display:none;
+}
+
+
+.classSelector form    {
+background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+margin:auto;
+position:relative;
+width:453px;
+height:55px;
+color: #09C;
+text-decoration: none;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding:5px;
+border: 1px solid #999;
+border: inset 1px solid #333;
+-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.classSelector input{
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 25px;
+	font-style: italic; 
+	width: 450px;
+	height: 50px;
+}

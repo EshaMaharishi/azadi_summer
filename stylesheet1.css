@@ -1,0 +1,52 @@
+body{
+	
+}
+
+div.form{
+	position:fixed;
+	top:300px;
+	left:550px;
+}
+
+div.second{
+	position: fixed;
+	top: 400px;
+	left: 550px;
+}
+
+h1{
+	position: fixed;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:400;
+	color: rgb(22,68,128);
+	position: fixed;
+	font-size: 75px;
+	left: 280px;
+	top: 90px;
+}
+
+h4{
+	position: fixed;
+	left: 300px;
+	top: 200px;
+}
+
+form    {
+background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+margin:auto;
+position:relative;
+width:453px;
+height:55px;
+color: #09C;
+text-decoration: none;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding:5px;
+border: 1px solid #999;
+border: inset 1px solid #333;
+-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
